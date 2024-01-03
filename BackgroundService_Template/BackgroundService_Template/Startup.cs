@@ -157,7 +157,7 @@ namespace OGA.Template
                 // And, we add it here, in case memory cache was not included in the choice of API level (above).
                 // See this article for memory cache implementation notes:
                 //  https://oga.atlassian.net/wiki/spaces/~311198967/pages/93159425/NET+Core+In-Memory+Cache
-                services.AddMemoryCache();
+//                services.AddMemoryCache();
 
                 OGA.SharedKernel.Logging_Base.Logger_Ref?.Info(
                     "Startup:ConfigureServices: Controller setup added.");
